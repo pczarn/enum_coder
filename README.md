@@ -23,6 +23,10 @@ enum_coder! {
         ConcatSeparated(usize, String),
         Dup,
         Test,
+        ConcatRef {
+            ref_a: usize,
+            ref_b: usize,
+        },
     }
 
     #[generate_list]
