@@ -1,12 +1,13 @@
 [package]
 name = "enum_coder"
-version = "0.0.0"
+version = "0.0.1"
 
 description = """
 Enum coder macro. A syntancic sugar for generating lists of instructions,
 intermediate representations for compilers etc.
 """
 authors = ["Piotr Czarnecki <pioczarn@gmail.com>"]
+documentation = "https://docs.rs/enum_coder/latest/enum_coder/"
 repository = "https://github.com/pczarn/enum_coder/"
 license = "MIT/Apache-2.0"
 

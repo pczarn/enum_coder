@@ -47,3 +47,5 @@ enum_coder! {
     }
 }
 ```
+
+Documentation is available here: https://docs.rs/enum_coder/latest/enum_coder/
