@@ -1,5 +1,3 @@
-#![feature(proc_macro_def_site, bind_by_move_pattern_guards)]
-
 extern crate proc_macro;
 extern crate syn;
 extern crate quote;

@@ -65,8 +65,7 @@ impl Stack {
     }
 }
 
-#[test]
-fn test_instructions() {
+fn main() {
     let insns = make_instructions();
     let mut state = Stack { v: vec![] };
     for ins in insns {
